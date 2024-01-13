@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+.container {
+    width: 500px;
+    background: rgb(97, 185, 244);
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.heading{
+    font-size: 28px;
+}
+.word{
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+button{
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: rgb(60, 156, 60);
+    color: white;
+    font-size: 20px;
+}
+.translatedDiv{
+    display: none;
+}
